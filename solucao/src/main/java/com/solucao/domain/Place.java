@@ -26,8 +26,8 @@ public class Place {
 	@Column(length = 50, nullable = false)
 	private String name;
 	
-	//Im going to use this criation direct, but later create bd to 
-	//country and states
+	//Thinking about creating an external DB to country and state. 
+	//Or using a external API to validate this information.
 	@Column(length = 50, nullable = false)
 	private String country;
 	
@@ -42,6 +42,7 @@ public class Place {
 	
 	@Column
 	private LocalDate createdAt;
+	
 	@Column
 	private LocalDate updatedAt; 
 }
