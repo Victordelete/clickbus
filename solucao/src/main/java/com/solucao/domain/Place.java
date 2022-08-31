@@ -26,10 +26,6 @@ public class Place {
 	@Column(length = 50, nullable = false)
 	private String name;
 	
-	//Im not 100 sure about the best way to put this parameter.
-	//@Column
-	//private String slug;
-	
 	//Im going to use this criation direct, but later create bd to 
 	//country and states
 	@Column(length = 50, nullable = false)
